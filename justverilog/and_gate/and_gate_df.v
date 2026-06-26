@@ -1,4 +1,4 @@
-module AND_GATE_DF (
+module and_gate_df (
     input a,
     input b,
     output c

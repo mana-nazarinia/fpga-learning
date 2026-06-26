@@ -1,4 +1,4 @@
-module AND_GATE_GL (
+module and_gate_gl (
     input a,
     input b,
     output c

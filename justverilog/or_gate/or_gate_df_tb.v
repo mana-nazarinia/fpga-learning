@@ -1,10 +1,10 @@
-module OR_GATE_tb;
+module or_gate_df_tb;
 reg a;
 reg b;
 
 wire y;
 
-OR_GATE_dataflowmodeling uut (
+or_gate_df uut (
     .a(a),
     .b(b),
     .y(y)

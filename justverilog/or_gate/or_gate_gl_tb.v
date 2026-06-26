@@ -1,10 +1,10 @@
-module OR_GATE_tb;
+module or_gate_gl_tb;
 reg a;
 reg b;
 
 wire y;
 
-OR_GATE_gatelevelmodeling uut (
+or_gate_gl uut (
     .a(a),
     .b(b),
     .y(y)

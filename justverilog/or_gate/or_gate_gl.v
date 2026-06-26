@@ -1,8 +1,9 @@
-module OR_GATE_dataflowmodeling (
+module or_gate_gl (
     input a,
     input b,
     output y
+
 );
 
-assign y = a | b;
+or G1 (y, a, b);
 endmodule

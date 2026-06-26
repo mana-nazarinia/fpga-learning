@@ -1,10 +1,10 @@
-module AND_GATE_GLTB;
+module and_gate_df_tb;
 reg x;
 reg y;
 
 wire z;
 
-AND_GATE_GL uut (
+and_gate_df uut (
     .a(x),
     .b(y),
     .c(z)
@@ -24,7 +24,7 @@ initial begin
 end 
 
 initial begin
-    $dumpfile("and_gatelevel.vcd");
-    $dumpvars(0, AND_GATE_GLTB);
+    $dumpfile("and_gate.vcd");
+    $dumpvars(0, and_gate_df_tb);
 end
 endmodule

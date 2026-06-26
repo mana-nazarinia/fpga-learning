@@ -45,7 +45,7 @@ fpga-learning/
 
 ---
 
-## 🛠 Tools Used
+## Tools Used
 
 - Verilog / SystemVerilog
 - ModelSim / Vivado / Icarus Verilog
@@ -54,7 +54,7 @@ fpga-learning/
 
 ---
 
-## 🚀 How to Run Simulations (example with Icarus Verilog)
+## How to Run Simulations (example with Icarus Verilog)
 
 ```bash
 iverilog -o output file.v testbench.v
