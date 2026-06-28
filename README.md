@@ -26,25 +26,6 @@ I use this repo to practice, experiment, and build small hardware modules step b
 
 ---
 
-## 📁 Repository Structure
-fpga-learning/
-│
-├── verilog/ # Verilog modules (basic to advanced)
-│ ├── gates/
-│ ├── mux/
-│ ├── flipflops/
-│ └── fsm/
-│
-├── testbenches/ # Simulation testbenches
-│
-├── projects/ # Small FPGA projects
-│
-├── docs/ # Notes and explanations
-│
-└── README.md
-
----
-
 ## Tools Used
 
 - Verilog / SystemVerilog
